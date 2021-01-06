@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "next start -p $PORT",
-    "deploy-dev": "npm install && npm run build && eb deploy nextjs-blog-dev"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
     "date-fns": "^2.11.1",

@@ -1,0 +1,15 @@
+@import '../styles//mixins/properties';
+
+.container {
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 85%);
+}
+.nav {
+  display: flex;
+  align-items: center;
+
+  height: 64px;
+  margin: 0 auto;
+  padding: 0 $site-page-padding;
+  max-width: $site-max-width;
+}

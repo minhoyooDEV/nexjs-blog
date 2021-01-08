@@ -1,0 +1,36 @@
+.container {
+
+}
+
+.header {
+  position: fixed;
+  // height: 56px;
+  background-color: white;
+  width: 100%;
+}
+
+.wrapper {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  ul {
+    display: flex;
+    list-style: none;
+    li {
+      box-sizing: content-box;
+      height: 64px;
+      width: 64px;
+      border-radius: 6px;
+      background-color: rgba(205, 128, 228, 0.39);
+      & + li {
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+.footer {
+  height: 200px;
+  background-color: #333;
+  width: 100%;
+}
